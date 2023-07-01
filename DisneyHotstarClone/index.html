@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disney+ Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="images/logo.png" class="brand-logo" alt="brand-logo" />
+      <ul class="nav-links">
+        <li class="nav-items"><a href="#">TV</a></li>
+        <li class="nav-items"><a href="#">movies</a></li>
+        <li class="nav-items"><a href="#">sports</a></li>
+        <li class="nav-items"><a href="#">premium</a></li>
+      </ul>
+
+      <div class="right-container">
+        <input type="text" class="search-box" placeholder="search" />
+        <button class="sub-btn">subscribe</button>
+        <a href="#" class="login-link">login</a>
+      </div>
+    </nav>
+
+    <div class="carousel-container">
+      <div class="carousel"></div>
+    </div>
+    <div class="video-card-container">
+      <div class="video-card">
+        <img src="images/disney.png" class="video-card-image" alt="video-card" />
+        <video src="videos/disney.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="images/pixar.png" class="video-card-image" alt="video-card" />
+        <video src="videos/pixar.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="images/marvel.png" class="video-card-image" alt="video-card" />
+        <video src="videos/marvel.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="images/star-wars.png" class="video-card-image" alt="video-card" />
+        <video src="videos/star-war.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="images/geographic.png" class="video-card-image" alt="video-card" />
+        <video
+          src="videos/geographic.mp4"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+    </div>
+    <h1 class="title">Recommended For You</h1>
+    <div class="movies-list">
+      <button class="pre-btn" title="btn">
+        <img src="images/pre.png" alt="pre-btn" />
+      </button>
+      <button class="nxt-btn" title="btn">
+        <img src="images/nxt.png" alt="nxt-btn" />
+      </button>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/poster 1.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">Loki</h2>
+            <h6 class="des">Loki se une a una misión de la AVT al sitio de un ataque de "La variante"</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 2.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">Mulan</h2>
+            <h6 class="des">El ejército de los Hunos, encabezado por el malvado Shun Yiu, quiere conquistar China</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 3.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">The falcon and the winter soldier</h2>
+            <h6 class="des">Wilson se une a Bucky Barnes para detener a los antipatriotas que creen que el mundo era mejor durante el Blip</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 4.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">Avengers</h2>
+            <h6 class="des">Después de los eventos devastadores de "Avengers: Infinity War"</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 5.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">Thor</h2>
+            <h6 class="des">Tras desatar una antigua guerra, el codicioso guerrero Thor es desterrado a la Tierra</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 6.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">Marvel Avengers</h2>
+            <h6 class="des">El director de la Agencia SHIELD decide reclutar a un equipo</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 7.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">Piratas del Caribe</h2>
+            <h6 class="des">El capitán Barbossa le roba el barco al pirata Jack Sparrow </h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 8.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">Soul</h2>
+            <h6 class="des">Un músico que ha perdido su pasión por la música es transportado.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 9.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">Raya</h2>
+            <h6 class="des">En el fantástico mundo de Kumandra, humanos y dragones</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 10.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">Luca</h2>
+            <h6 class="des">En un hermoso pueblo en la Riviera italiana, Luca y Alberto disfrutan</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 11.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">Ford y Ferrari</h2>
+            <h6 class="des">El visionario automovilístico Carroll Shelby y su conductor británico Ken Miles</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 12.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">Dark Phoenix</h2>
+            <h6 class="des">Los X-Men se enfrentan a su enemigo más poderoso: uno de sus miembros, Jean Grey</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="title">Popular Shows</h1>
+    <div class="movies-list">
+      <button class="pre-btn" title="btn">
+        <img src="images/pre.png" alt="pre-btn" />
+      </button>
+      <button class="nxt-btn" title="btn">
+        <img src="images/nxt.png" alt="nxt-btn" />
+      </button>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/poster 12.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 11.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 10.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 9.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 8.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 7.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 6.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 5.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 4.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 3.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 2.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/poster 1.png" class="card-img" alt="card" />
+          <div class="card-body">
+            <h2 class="name">movie name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
